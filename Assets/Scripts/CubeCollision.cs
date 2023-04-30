@@ -4,7 +4,7 @@ public class CubeCollision : MonoBehaviour {
    Cube cube ;
 
    private void Awake () {
-      cube = GetComponent<Cube> () ;
+      cube = GetComponent<Cube>() ;
    }
 
    private void OnCollisionEnter (Collision collision) {

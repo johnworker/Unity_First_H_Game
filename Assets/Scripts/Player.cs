@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
    [Space]
    [SerializeField] private TouchSlider touchSlider ;
 
-   private Cube mainCube ;
+   [SerializeField]private Cube mainCube ;
 
    private bool isPointerDown ;
    private bool canMove ;
